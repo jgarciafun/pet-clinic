@@ -135,7 +135,7 @@ pipeline {
                 sh 'docker tag $TAG_NAME $PRODUCTION_LATEST'
                 sh 'docker push $PRODUCTION_PREVIOUSLY'
                 sh 'docker push $PRODUCTION_LATEST'
-            }
+             }
         }
 
         
